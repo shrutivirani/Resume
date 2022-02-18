@@ -1,23 +1,55 @@
-* {
-  list-style: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.5rem;
+  background-color: #f1f3f9;
+  min-height: 100vh;
+  line-height: 1.5;
+  padding: 1.5rem 15rem;
+  font-family: "Roboto", sans-serif;
 }
 
-body {
-  background: #f5f6fa;
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+    padding: 1.5rem !important;
+  }
 }
 
-.wrapper .sidebar {
-  background: rgb(5, 68, 104);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 225px;
-  height: 100%;
-  padding: 20px 0;
-  transition: all 0.5s ease;
+@media only screen and (max-width: 1300px) {
+  .container {
+    padding: 1.5rem !important;
+  }
+}
+
+.basic {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+
+.name {
+  position: absolute;
+  top: 210px;
+  left: 16px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.work-experience {
+  background-color: white;
+  padding-left: 20px;
+}
+
+.title {
+  color: #757575;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.education {
+  background-color: white;
+  padding: 15px;
 }
