@@ -27,7 +27,6 @@
   grid-row-end: 3;
   background-color: white;
   position: relative;
-  text-align: center;
 }
 
 .name {
@@ -52,4 +51,11 @@
 .education {
   background-color: white;
   padding: 15px;
+}
+
+.profile {
+  color: #757575;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 20px;
 }
