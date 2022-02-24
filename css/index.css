@@ -64,4 +64,29 @@
   margin-left: 20px;
   margin-right: 20px;
   border: 1px solid #e5e4e2;
+  border-width: 0.1px;
 }
+
+.line2 {
+  margin-right: 20px;
+  border: 1px solid #e5e4e2;
+  border-width: 0.1px;
+}
+
+.heading2 {
+  color:#757575;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.heading3 {
+  color:#009688;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.text {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
