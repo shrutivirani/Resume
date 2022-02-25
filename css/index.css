@@ -35,6 +35,7 @@
   left: 16px;
   font-size: 30px;
   font-weight: 400;
+  color:#ffffff;
 }
 
 .work-experience {
@@ -88,5 +89,6 @@
 .text {
   font-size: 14px;
   margin-left: 10px;
+  margin-right: 10px;
 }
 
