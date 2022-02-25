@@ -4,17 +4,46 @@
   border-collapse: collapse;
 }
 
-tr,
-td,
-th {
+.tr {
   border: 1px solid #a02727;
   text-align: center;
 }
 
-th {
+.td {
+  border: 1px solid #a02727;
+  text-align: center;
+}
+
+.th {
   background-color: green;
   color: white;
+  text-align: center;
 }
+
 tr:nth-child(even) {
-  background-color: aquamarine;
+  background-color: #E6E6E3;
+}
+
+.table2 {
+  border: 1px solid #808080;
+  border-collapse: collapse;
+  border-radius: 9px;
+}
+
+.row {
+  border: 1px solid #808080;
+  text-align: center;
+  padding: 7px;
+}
+
+.data {
+  text-align: center;
+  padding: 7px;
+}
+
+.heading {
+  text-align: center;
+  padding: 7px;
+  background-color: #009688;
+  color: white;
 }
