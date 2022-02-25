@@ -1,0 +1,20 @@
+.container {
+  border: 1px solid #000000;
+  border-radius: 9px;
+  border-collapse: collapse;
+}
+
+tr,
+td,
+th {
+  border: 1px solid #a02727;
+  text-align: center;
+}
+
+th {
+  background-color: green;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: aquamarine;
+}
